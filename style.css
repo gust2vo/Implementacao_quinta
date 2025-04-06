@@ -21,6 +21,15 @@ body {
 header {
   text-align: center;
   margin-bottom: 40px;
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s;
+}
+
+header:hover {
+  transform: scale(1.03);
 }
 
 .foto {
@@ -41,7 +50,7 @@ h2 {
   font-size: 1.4rem;
   color: #8a2be2;
   margin-bottom: 10px;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 ul {
@@ -69,4 +78,17 @@ strong {
 em {
   font-style: italic;
   color: #ccc;
+}
+
+section {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s;
+}
+
+section:hover {
+  transform: scale(1.01);
 }
