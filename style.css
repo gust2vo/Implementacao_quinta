@@ -92,3 +92,16 @@ section {
 section:hover {
   transform: scale(1.01);
 }
+
+.link {
+  color: #8a2be2;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+.link:hover {
+  color: #a65eff;
+  text-decoration: underline;
+}
+
