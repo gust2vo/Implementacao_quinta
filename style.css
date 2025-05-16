@@ -44,7 +44,10 @@ header:hover {
 h1 {
   font-size: 1.8rem;
   color: #8a2be2;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
+
 
 h2 {
   font-size: 1.4rem;
